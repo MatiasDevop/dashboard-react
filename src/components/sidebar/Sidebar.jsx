@@ -24,53 +24,57 @@ const Sidebar = () => {
                     </ul>
                 </div>
                 <div className="sidebarMenu">
-                    <h3 className="sidebarTitle">Dashboard</h3>
+                    <h3 className="sidebarTitle">Quick Menu</h3>
                     <ul className="sidebarList">
                         <li className="sidebarListItem active">
                             <LineStyle  className="sidebarIcon"/>
-                            Home
+                            Users
                         </li>
                         <li className="sidebarListItem">
                             <Timeline className="sidebarIcon"/>
-                            Analitycs
+                            Products
                         </li>
                         <li className="sidebarListItem">
                             <TrendingUp className="sidebarIcon"/>
-                            Sales    
+                            Transactions    
+                        </li>
+                        <li className="sidebarListItem">
+                            <TrendingUp className="sidebarIcon"/>
+                            Reports    
                         </li>
                     </ul>
                 </div>
                 <div className="sidebarMenu">
-                    <h3 className="sidebarTitle">Dashboard</h3>
+                    <h3 className="sidebarTitle">Notifications</h3>
                     <ul className="sidebarList">
                         <li className="sidebarListItem active">
                             <LineStyle  className="sidebarIcon"/>
-                            Home
+                            MAil
                         </li>
                         <li className="sidebarListItem">
                             <Timeline className="sidebarIcon"/>
-                            Analitycs
+                            Feedback
                         </li>
                         <li className="sidebarListItem">
                             <TrendingUp className="sidebarIcon"/>
-                            Sales    
+                            Messages    
                         </li>
                     </ul>
                 </div>
                 <div className="sidebarMenu">
-                    <h3 className="sidebarTitle">Dashboard</h3>
+                    <h3 className="sidebarTitle">Stuff</h3>
                     <ul className="sidebarList">
                         <li className="sidebarListItem active">
                             <LineStyle  className="sidebarIcon"/>
-                            Home
+                            Manage
                         </li>
                         <li className="sidebarListItem">
                             <Timeline className="sidebarIcon"/>
-                            Analitycs
+                            Analytics
                         </li>
                         <li className="sidebarListItem">
                             <TrendingUp className="sidebarIcon"/>
-                            Sales    
+                            Reports    
                         </li>
                     </ul>
                 </div>
