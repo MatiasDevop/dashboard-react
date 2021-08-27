@@ -16,11 +16,26 @@
     width: 100%;
     border-spacing: 20px;
 }
+
+.widgetLgTh{
+    text-align: left;
+}
+
+.widgetLgUser{
+    display:flex;
+    align-items: center;
+    font-weight: 600;
+}
 .widgetLgImg{
     width: 40;
     height: 40px;
     border-radius: 50%;
     object-fit: cover;
+    margin-right: 10px;
+}
+
+.widgetLgDate, .widgetLgAmount{
+    font-weight: 300;
 }
 
 .widgetLgButton{
@@ -33,8 +48,8 @@
     color: #3bb077;
 }
 .widgetLgButton.Declined{
-    background-color: #fff0f1;
-    color: rgba(126, 85, 221, 0);
+    background-color: #ad2029;
+    color:#3bb077;
 }
 .widgetLgButton.Pending{
     background-color: #ebf1fe;

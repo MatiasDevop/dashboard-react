@@ -18,7 +18,7 @@ const WidgetLg = () => {
                     <th className="widgetLgTh">Status</th>
                 </tr>
                 <tr className="widgetLgTr">
-                    <td>
+                    <td className="widgetLgUser">
                         <img src="https://i.pinimg.com/originals/cf/c1/b4/cfc1b4bdb27367faf2c2eae80c8c9a36.jpg" 
                         alt=""
                         className="widgetLgImg" 
@@ -32,7 +32,7 @@ const WidgetLg = () => {
                     </td>
                 </tr>
                 <tr className="widgetLgTr">
-                    <td>
+                    <td className="widgetLgUser">
                         <img src="https://i.pinimg.com/originals/cf/c1/b4/cfc1b4bdb27367faf2c2eae80c8c9a36.jpg" 
                         alt=""
                         className="widgetLgImg" 
@@ -46,7 +46,7 @@ const WidgetLg = () => {
                     </td>
                 </tr>
                 <tr className="widgetLgTr">
-                    <td>
+                    <td className="widgetLgUser">
                         <img src="https://i.pinimg.com/originals/cf/c1/b4/cfc1b4bdb27367faf2c2eae80c8c9a36.jpg" 
                         alt=""
                         className="widgetLgImg" 
@@ -60,7 +60,7 @@ const WidgetLg = () => {
                     </td>
                 </tr>
                 <tr className="widgetLgTr">
-                    <td>
+                    <td className="widgetLgUser">
                         <img src="https://i.pinimg.com/originals/cf/c1/b4/cfc1b4bdb27367faf2c2eae80c8c9a36.jpg" 
                         alt=""
                         className="widgetLgImg" 
