@@ -2,10 +2,19 @@ import React from 'react'
 import { DataGrid, GridColDef, GridValueGetterParams } from '@material-ui/data-grid';
 import { DeleteOutline } from '@material-ui/icons';
 import { userRows } from '../../dummyData';
+import { Link } from 'react-router-dom';
+import { useState } from 'react';
+
 
 import "./userList.css";
 
 const UserList = () => {
+  const [data, setData] = useState(userRows);
+
+  const handleDelete = (id) =>{
+    setData(data.filter((item)=> item.id !== id));
+  }
+
     const columns = [
         { field: 'id', headerName: 'ID', width: 120 },
         { field: 'user', headerName: 'User', width: 180, renderCell:(params)=>{
@@ -34,8 +43,10 @@ const UserList = () => {
           renderCell: (params) =>{
             return (
             <> 
-              <button className="userListEdit">Edit</button>
-              <DeleteOutline className="userListDelete" />
+              <Link to={"/user/"+params.row.id}>
+                <button className="userListEdit">Edit</button>
+              </Link>
+              <DeleteOutline className="userListDelete" onClick={()=>handleDelete(params.row.id)} />
             </>
             )
           }
@@ -46,7 +57,7 @@ const UserList = () => {
     return (
         <div className="userList">
             <DataGrid
-                rows={userRows}
+                rows={data}
                 columns={columns}
                 pageSize={5}
                 checkboxSelection
