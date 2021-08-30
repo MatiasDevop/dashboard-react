@@ -54,3 +54,42 @@ export const userData = [
         "Active User": 3000,
       },    
   ];
+
+  export const userRows = [
+    { id: 1, username: 'Jon Snow', avatar:"https://awoiaf.westeros.org/images/a/a0/Cristi_Balanescu_Jon_SnowGhost.png",
+    email:"jon@gmail.com",
+    status:"active",
+    transaction: "$120.00"
+    },
+    { id: 2, username: 'Jon Snow', avatar:"https://awoiaf.westeros.org/images/a/a0/Cristi_Balanescu_Jon_SnowGhost.png",
+    email:"jon@gmail.com",
+    status:"active",
+    transaction: "$120.00"
+    },
+    { id: 3, username: 'Jon Snow', avatar:"https://awoiaf.westeros.org/images/a/a0/Cristi_Balanescu_Jon_SnowGhost.png",
+    email:"jon@gmail.com",
+    status:"active",
+    transaction: "$120.00"
+    },
+    { id: 4, username: 'Jon Snow', avatar:"https://awoiaf.westeros.org/images/a/a0/Cristi_Balanescu_Jon_SnowGhost.png",
+    email:"jon@gmail.com",
+    status:"active",
+    transaction: "$120.00"
+    },
+    { id: 5, username: 'Jon Snow', avatar:"https://awoiaf.westeros.org/images/a/a0/Cristi_Balanescu_Jon_SnowGhost.png",
+    email:"jon@gmail.com",
+    status:"active",
+    transaction: "$120.00"
+    },
+    { id: 6, username: 'Jon Snow', avatar:"https://awoiaf.westeros.org/images/a/a0/Cristi_Balanescu_Jon_SnowGhost.png",
+    email:"jon@gmail.com",
+    status:"active",
+    transaction: "$120.00"
+    },
+    { id: 7, username: 'Jon Snow', avatar:"https://awoiaf.westeros.org/images/a/a0/Cristi_Balanescu_Jon_SnowGhost.png",
+    email:"jon@gmail.com",
+    status:"active",
+    transaction: "$120.00"
+    },
+  
+  ];
