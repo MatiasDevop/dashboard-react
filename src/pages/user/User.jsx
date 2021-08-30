@@ -1,4 +1,4 @@
-import { CalendarToday, LocationSearching, MailOutline, PermIdentity, PhoneAndroid } from '@material-ui/icons';
+import { CalendarToday, LocationSearching, MailOutline, PermIdentity, PhoneAndroid, Publish } from '@material-ui/icons';
 import React from 'react';
 import "./user.css";
 
@@ -72,6 +72,11 @@ const User = () => {
                             </div>
                         </div>
                         <div className="userUpdateRight">
+                            <div className="userUpdateUpload">
+                                <img src="https://sm.ign.com/t/ign_latam/screenshot/default/gaimostron_cmwe.1280.jpg" className="userUpdateImg" alt="" />
+                                <label htmlFor="file"><Publish /> </label>
+                                <input type="file" id="file" style={{ display:"none" }} />
+                            </div>
                         </div>
                     </form>
                 </div>
