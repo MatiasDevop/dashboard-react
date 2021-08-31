@@ -93,3 +93,56 @@ export const userData = [
     },
   
   ];
+
+  export const productRows = [
+    { id: 1, 
+    name: 'Apple airpods', 
+    img:"https://awoiaf.westeros.org/images/a/a0/Cristi_Balanescu_Jon_SnowGhost.png",
+    stock: 123,
+    status:"active",
+    price: "$120.00"
+    },
+    { id: 2, 
+    name: 'Apple airpods', 
+    img:"https://awoiaf.westeros.org/images/a/a0/Cristi_Balanescu_Jon_SnowGhost.png",
+    stock: 123,
+    status:"active",
+    price: "$120.00"
+    },
+    { id: 3, 
+    name: 'Apple airpods', 
+    img:"https://awoiaf.westeros.org/images/a/a0/Cristi_Balanescu_Jon_SnowGhost.png",
+    stock: 123,
+    status:"active",
+    price: "$120.00"
+    },
+    { id: 4, 
+    name: 'Apple airpods', 
+    avatar:"https://awoiaf.westeros.org/images/a/a0/Cristi_Balanescu_Jon_SnowGhost.png",
+    stock: 123,
+    status:"active",
+    price: "$120.00"
+    },
+    { id: 5, 
+    name: 'Apple airpods', 
+    img:"https://awoiaf.westeros.org/images/a/a0/Cristi_Balanescu_Jon_SnowGhost.png",
+    stock: 123,
+    status:"active",
+    price: "$120.00"
+    },
+    { id: 6, 
+    name: 'Apple airpods', 
+    img:"https://awoiaf.westeros.org/images/a/a0/Cristi_Balanescu_Jon_SnowGhost.png",
+    stock: 123,
+    status:"active",
+    price: "$120.00"
+    },
+    { id: 7, 
+    name: 'Apple airpods', 
+    img:"https://awoiaf.westeros.org/images/a/a0/Cristi_Balanescu_Jon_SnowGhost.png",
+    stock: 123,
+    status:"active",
+    price: "$120.00"
+    },
+  
+  ];
