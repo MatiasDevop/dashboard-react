@@ -1,5 +1,7 @@
 import { CalendarToday, LocationSearching, MailOutline, PermIdentity, PhoneAndroid, Publish } from '@material-ui/icons';
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import "./user.css";
 
 const User = () => {
@@ -7,6 +9,9 @@ const User = () => {
         <div className="user">
             <div className="userTitleContainer">
                 <h1 className="userTitle">Edit User</h1>
+                <Link to="/newUser">
+                    <button className="userAddButton">Create</button>
+                </Link>
                 <button className="userAddButton">Create</button>
             </div>
             <div className="userContainer">
@@ -74,9 +79,12 @@ const User = () => {
                         <div className="userUpdateRight">
                             <div className="userUpdateUpload">
                                 <img src="https://sm.ign.com/t/ign_latam/screenshot/default/gaimostron_cmwe.1280.jpg" className="userUpdateImg" alt="" />
-                                <label htmlFor="file"><Publish /> </label>
+                                <label htmlFor="file">
+                                    <Publish className="userUpdateIcon" /> 
+                                </label>
                                 <input type="file" id="file" style={{ display:"none" }} />
                             </div>
+                            <button className="userUpdateButton">Update</button>
                         </div>
                     </form>
                 </div>
