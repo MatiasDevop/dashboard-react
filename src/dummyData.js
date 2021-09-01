@@ -94,52 +94,67 @@ export const userData = [
   
   ];
 
+  export const productData = [
+    {
+      name: 'Jan',
+      "Sales": 4000,
+    },
+    {
+      name: 'Feb',
+      "Sales": 3000,
+    },
+    {
+      name: 'Mar',
+      "Sales": 500,
+    }
+  ];
+
   export const productRows = [
     { id: 1, 
     name: 'Apple airpods', 
-    img:"https://awoiaf.westeros.org/images/a/a0/Cristi_Balanescu_Jon_SnowGhost.png",
+    img:"https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2020/11/apple-airpods-pro-2152383.jpg",
     stock: 123,
     status:"active",
     price: "$120.00"
     },
     { id: 2, 
     name: 'Apple airpods', 
-    img:"https://awoiaf.westeros.org/images/a/a0/Cristi_Balanescu_Jon_SnowGhost.png",
+    img:"https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2020/11/apple-airpods-pro-2152383.jpg",
     stock: 123,
     status:"active",
     price: "$120.00"
     },
     { id: 3, 
     name: 'Apple airpods', 
-    img:"https://awoiaf.westeros.org/images/a/a0/Cristi_Balanescu_Jon_SnowGhost.png",
+    img:"https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2020/11/apple-airpods-pro-2152383.jpg",
     stock: 123,
     status:"active",
     price: "$120.00"
     },
     { id: 4, 
     name: 'Apple airpods', 
-    avatar:"https://awoiaf.westeros.org/images/a/a0/Cristi_Balanescu_Jon_SnowGhost.png",
+    img:"https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2020/11/apple-airpods-pro-2152383.jpg",
     stock: 123,
     status:"active",
     price: "$120.00"
     },
     { id: 5, 
     name: 'Apple airpods', 
-    img:"https://awoiaf.westeros.org/images/a/a0/Cristi_Balanescu_Jon_SnowGhost.png",
+    img:"https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2020/11/apple-airpods-pro-2152383.jpg",
     stock: 123,
     status:"active",
     price: "$120.00"
     },
     { id: 6, 
     name: 'Apple airpods', 
-    img:"https://awoiaf.westeros.org/images/a/a0/Cristi_Balanescu_Jon_SnowGhost.png",
+    img:"https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2020/11/apple-airpods-pro-2152383.jpg",
     stock: 123,
     status:"active",
     price: "$120.00"
     },
     { id: 7, 
     name: 'Apple airpods', 
-    img:"https://awoiaf.westeros.org/images/a/a0/Cristi_Balanescu_Jon_SnowGhost.png",
+    img:"https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2020/11/apple-airpods-pro-2152383.jpg",
     stock: 123,
     status:"active",
     price: "$120.00"
