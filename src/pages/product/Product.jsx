@@ -20,29 +20,31 @@ const Product = () => {
                     <Chart data={productData} dataKey="Sales" title="Sales performance" />
                 </div>
                 <div className="productTopRight">
-                    <img 
-                    src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2020/11/apple-airpods-pro-2152383.jpg" 
-                    alt="" 
-                    className="productInfoImg"
-                    />
-                    <span className="productName">Apple Airpods</span>
-                </div>
-                <div className="productInfoBottom">
-                    <div className="productInfoItem">
-                        <span className="productInfoKey">Id:</span>
-                        <span className="productInfoValue">123</span>
+                    <div className="prodductInfoTop">
+                        <img 
+                        src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2020/11/apple-airpods-pro-2152383.jpg" 
+                        alt="" 
+                        className="productInfoImg"
+                        />
+                        <span className="productName">Apple Airpods</span>
                     </div>
-                    <div className="productInfoItem">
-                        <span className="productInfoKey">sales:</span>
-                        <span className="productInfoValue">1213</span>
-                    </div>
-                    <div className="productInfoItem">
-                        <span className="productInfoKey">active</span>
-                        <span className="productInfoValue">yes</span>
-                    </div>
-                    <div className="productInfoItem">
-                        <span className="productInfoKey">in stock:</span>
-                        <span className="productInfoValue">no</span>
+                    <div className="productInfoBottom">
+                        <div className="productInfoItem">
+                            <span className="productInfoKey">Id:</span>
+                            <span className="productInfoValue">123</span>
+                        </div>
+                        <div className="productInfoItem">
+                            <span className="productInfoKey">sales:</span>
+                            <span className="productInfoValue">1213</span>
+                        </div>
+                        <div className="productInfoItem">
+                            <span className="productInfoKey">active</span>
+                            <span className="productInfoValue">yes</span>
+                        </div>
+                        <div className="productInfoItem">
+                            <span className="productInfoKey">in stock:</span>
+                            <span className="productInfoValue">no</span>
+                        </div>
                     </div>
                 </div>
             </div>
